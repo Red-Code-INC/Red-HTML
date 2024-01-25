@@ -30,3 +30,10 @@ for (let i = 0 ; i < cntr.length ; i++){
     let ce = cntr[i].getAttribute("elmt")
     Hcntr(ce)
 }
+let tr = ""
+let tri = document.getElementsByTagName("searchbar")
+for (let i = 0; i < tri.length; i++) {
+  tr = tri[i].getAttribute("search")
+  searchbar(tr)
+}
+//searchbar('search')
