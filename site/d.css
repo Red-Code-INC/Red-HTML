@@ -1,0 +1,108 @@
+{
+  li: {
+    fontFamily: Red-Icons
+  },
+  red: {
+    color: red
+  },
+  body: {},
+  x: {
+    fontFamily: fira code,
+    fontWeight: 900,
+    marginLeft: 7px
+  },
+  .i: {
+    content: url(\../test.png\),
+    width: 33px,
+    backgroundColor: white
+  },
+  .tab: {
+    position: fixed,
+    left: 0,
+    bottom: 0,
+    overflow: hidden,
+    border: none,
+    backgroundColor: red,
+    textAlign: center,
+    borderRight: 3px solid red
+  },
+  .tabbar h2: {
+    cssFloat: left,
+    color: white
+  },
+  .tabbar h2.active: {
+    backgroundColor: #c00000
+  },
+  jslogo: {
+    fontFamily: \Fira Code\, monospace,
+    fontOpticalSizing: auto,
+    fontWeight: 700,
+    fontStyle: normal
+  },
+  .navbar: {
+    overflow: hidden,
+    position: absolute,
+    top: 0,
+    left: 0,
+    backgroundColor: red,
+    color: white,
+    padding: none,
+    width: 100%,
+    border: none,
+    height: 40px,
+    borderLeft: 5px solid red
+  },
+  .navbar h2: {
+    fontFamily: \Fira Code\, monospace,
+    fontOpticalSizing: auto,
+    fontWeight: 700,
+    fontStyle: normal,
+    cssFloat: left,
+    textAlign: center,
+    lineHeight: 1px,
+    textDecoration: none
+  },
+  .content: {
+    padding: 16px
+  },
+  .sticky: {
+    position: fixed,
+    top: 0,
+    width: 100%
+  },
+  .tab button: {
+    backgroundColor: inherit,
+    cssFloat: left,
+    border: none,
+    outline: none,
+    cursor: pointer,
+    padding: 14px 20px,
+    transition: 0.3s,
+    color: white,
+    fontFamily: Red-Icons,
+    fontSize: 22px
+  },
+  .tab button:hover: {
+    color: lightgray
+  },
+  .tab button.active: {
+    color: lightgray
+  },
+  .tabcontent: {
+    display: none,
+    padding: 6px 12px,
+    border: none,
+    borderTop: none
+  },
+  Example\n.tabcontent: {
+    animation: fadeEffect 1s
+  },
+  @keyframes fadeEffect: {
+    from: {
+      opacity: 0
+    },
+    to: {
+      opacity: 1
+    }
+  }
+}

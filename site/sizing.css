@@ -1,0 +1,124 @@
+@media screen and (max-width:600px){
+    .cdn{
+        width:350px;
+        font-size:60%;
+        text-align:center;
+        height:150%;
+        /*border-bottom:4px solid #f1f1f1;*/
+    }
+    .cdnlink{
+        vertical-align:super;
+        text-align:center;
+        width:350px;
+        font-size:60%;
+        background-color:transparent;
+        border:none;
+        color:red;
+    }
+    .github{
+    display:none;
+    }
+    .br{
+        display:none;
+    }
+    .minigithub{
+        display:inline-block;
+        float:right;
+        font-size:30px;
+        font-family:Red-Icons;
+        margin-right:3px;
+        color:black;
+        text-decoration:none;
+    }
+    .copybutton{
+        position:relative;
+        left:35%;
+    }
+}
+@media screen and (min-width:601px){
+    .cdn{
+        width:480px;
+        height:150%;
+        font-size:80%;
+        border-left:10px solid #f1f1f1;
+        border-right:10px solid #f1f1f1;
+        /*border-bottom:4px solid #f1f1f1;*/
+    }
+    .cdnlink{
+        vertical-align:super;
+        font-size:75%;
+        width:460px;
+        background-color:transparent;
+        border:none;
+        color:red;
+    }
+    .github{
+        display:block;
+    }
+    .br{
+        display:initial;
+    }
+    .githublink{
+        text-align:center;
+    }
+    .minigithub{
+        display:none;
+    }
+    .copybutton{
+        float:right;
+    }
+    #copybutton{
+        font-size:110%;
+    }
+}
+@media screen and (min-width:701px){
+    .cdn{
+        width:770px;
+        height:150%;
+        font-size:100%;
+        border-left:10px solid #f1f1f1;
+        border-right:10px solid #f1f1f1;
+        /*border-bottom:4px solid #f1f1f1;*/
+    }
+    .cdnlink{
+        vertical-align:super;
+        width:760px;
+        font-size:100%;
+        background-color:transparent;
+        border:none;
+        color:red;
+    }
+    .github{
+        display:block;
+    }
+    .br{
+        display:initial;
+    }
+    .githublink{
+        text-align:center;
+    }
+    .minigithub{
+        display:none;
+    }
+    .copybutton{
+        float:right;
+    }
+    #copybutton{
+        font-size:110%;
+    }
+}
+@media screen and (min-width:1400px){
+    .cdn{
+        width:780px;
+        height:130%;
+        /*border-bottom:4px solid #f1f1f1;*/
+    }
+    .cdnlink{
+        vertical-align:super;
+        width:760px;
+        font-size:;
+        background-color:transparent;
+        border:none;
+        color:red;
+    }
+}

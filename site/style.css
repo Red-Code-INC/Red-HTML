@@ -1,0 +1,145 @@
+@import "./sizing.css";
+@import "./logos.css";
+
+red{
+    color:red;
+}
+a{
+    text-decoration:none
+}
+a:hover{
+    text-decoration:underline;
+}
+.tab {
+  overflow: hidden;
+  border: none;
+  outline:none;
+  background-color:;
+}
+
+/* Style the buttons that are used to open the tab content */
+.tab button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  /*padding: 13px 15px;*/
+  transition: 0.3s;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+  background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border: none;
+  border-top: none;
+}
+Example
+.tabcontent {
+  animation: fadeEffect 1s; /* Fading effect takes 1 second */
+}
+
+/* Go from zero to full opacity */
+@keyframes fadeEffect {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+.csslogo{
+    width:35px;
+    content:url("logo/REDHTMLLOGO2.png");
+}
+.min{
+    vertical-align:text-bottom;
+    width:45px;
+    display:inline;
+    float:left;
+}
+.dropdown-item{
+    color:red;
+}
+.dropdown-item:hover,.dropdown-item:focus{
+    background-color:#f1f1f1;
+    color:red;
+}
+.dropdown-item:active{
+    color:white;
+    background-color:red;
+}
+.cdn{
+    background-color:#f1f1f1;
+    border-radius:20px;
+}
+.copy{
+    font-family:Red-Icons;
+    cursor:pointer;
+    float:right;
+    text-align:left;
+}
+.copy:hover{
+    color:red;
+    cursor:pointer;
+}
+.tooeltip {
+  position: relative;
+  display: inline-block;
+  background-color:inherit;
+}
+
+.tooeltip .tooeltiptext {
+  visibility: hidden;
+  width: 140px;
+  background-color: #555;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px;
+  position: absolute;
+  z-index: 1;
+  bottom: 150%;
+  left: 50%;
+  margin-left: -75px;
+  opacity: 0;
+  /*transition: opacity 0.3s;*/
+}
+
+.tooeltip .tooeltiptext::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+}
+
+.tooeltip:hover .tooeltiptext {
+  visibility: visible;
+  opacity: 1;
+}
+#copyicon:hover{
+    color:red;
+}
+#copyicon{
+    background-color:inherit;
+    cursor:pointer;
+}
+#cdnlnk:focus{
+    outline:none;
+    background-color:inherit;
+}
+.dropdown-toggle:hover{
+    background-color:lightgray;
+    border-bottom:2px solid lightgray;
+}
